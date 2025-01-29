@@ -5,14 +5,14 @@ int main()
 {
     int first, second, third;
     int result;
-    cout << "Enter first integer: ";
+    cout << "Enter the first integer: ";
     cin >> first;
-    cout << endl << "Enter second integer: ";
+    cout << endl << "Enter the second integer: ";
     cin >> second;
-    cout << endl << "Enter third integer: ";
+    cout << endl << "Enter the third integer: ";
     cin >> third;
     result = ((first + second)  + third) / 3 ;
-    cout << "The avarage is : " << (float)result;
+    cout << "The average is : " << (float)result;
     return 0;
   
 };
